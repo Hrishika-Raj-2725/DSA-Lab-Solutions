@@ -1,0 +1,20 @@
+//Implementation of Structures with Array
+
+#include <stdio.h>
+struct Student {
+    char name[50];
+    int age;
+    float grade;
+};
+int main() 
+{
+    struct Student s1 = {"Aaryan",20, 18.5};
+    struct Student s2 = {.age=18, .name="Rajesh", .grade=22};
+    printf("%s\t%d\t%.2f\n", s1.name, s1.age, s1.grade);
+    printf("%s\t%d\t%.2f\n", s2.name, s2.age, s2.grade);
+    return 0;
+}
+
+OUTPUT:
+Aaryan	20	18.50
+Rajesh	18	22.00
