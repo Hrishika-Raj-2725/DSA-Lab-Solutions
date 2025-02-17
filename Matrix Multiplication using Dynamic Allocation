@@ -60,4 +60,17 @@ int main()
     return 0;
 }
 
-Output
+OUTPUT:
+
+Enter rows and columns of first matrix: 2 3
+Enter rows and columns of second matrix: 3 2
+Enter elements of first matrix:
+2 4 6
+6 8 4
+Enter elements of second matrix:
+5 6
+8 7
+9 3
+Resultant matrix:
+96 58 
+130 104 
